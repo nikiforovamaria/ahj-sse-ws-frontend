@@ -5,6 +5,7 @@ export default class Controller {
     this.layout = layout;
     this.body = document.body;
     this.ws = new WebSocket('wss://maryniki-ahj-sse-ws.herokuapp.com/ws');
+    // this.ws = new WebSocket('ws://localhost:7070/ws');
     this.initWS();
   }
 
